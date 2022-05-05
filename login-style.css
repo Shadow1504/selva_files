@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+
+.wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                      url("images/marcus-loke-xXJ6utyoSw0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.wrapper .image img{
+    width: 100%;
+}
+
+.wrapper .container{
+    width: 70%;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .container .content{
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.wrapper .container .content h1{
+    text-align: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+
+.wrapper .container .content form{
+    padding: 50px;
+}
+
+.wrapper .container .content form .box{
+    margin-bottom: 25px;
+}
+
+.wrapper .container .content form .box-1 input,
+.wrapper .container .content form .box-2 input{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    padding: 15px 0px 15px 8px;
+    width: 500px;
+}
+
+.wrapper .container .content form .box-3{
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.wrapper .container .content form .box-3 label{
+    font-size: 18px;
+    cursor: pointer;
+    /* border: 1px solid blue; */
+}
+
+.wrapper .container .content form .box-3 input{
+    cursor: pointer;
+    /* border: 1px solid green; */
+    
+}
+
+.wrapper .container .content form .box-4 input{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:  monospace;
+    padding: 10px 0px;
+    background-color: rgb(13, 116, 233);
+    color: white;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.wrapper .container .content form .box-3 a{
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+    color: rgb(45, 143, 255);
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.wrapper .container .content form .box-5 p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapper .container .content form .box-5 a{
+    font-size: 18px;
+    color: rgb(45, 143, 255);
+    text-decoration: none;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.wrapper .container .content form .box-3 a:hover,
+.wrapper .container .content form .box-5 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.wrapper .container .content form .box-4 input:hover{
+    background-color: rgb(32, 136, 255);
+}
+
+.wrapper .container .content form .box-1 input:hover,
+.wrapper .container .content form .box-2 input:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.wrapper .container .content form .box-1 input:focus,
+.wrapper .container .content form .box-2 input:focus{
+    background-color: rgb(238, 238, 238);
+    border: none;
+}

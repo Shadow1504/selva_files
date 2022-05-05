@@ -1,0 +1,1105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+/* Mobile Version */
+
+.wrapper{
+    width: 95%;
+    margin: 0px auto;
+    /* background-color: plum; */
+}
+
+/* Header-Navigation: Mobile */
+
+header .bg{
+    background-color: white;
+}
+
+header .wrapper .container-big{
+    display: none;
+}
+
+header .wrapper .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    padding: 10px 0px 15px;
+}
+
+header .wrapper .container .logo{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    /* border: 2px solid gold; */
+}
+
+header .wrapper .container .logo h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+}
+
+header .wrapper .container nav{
+    /* border: 2px solid blue; */
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+}
+
+header .wrapper .container nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .wrapper .container nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid rgb(44, 44, 44);
+    padding: 10px 25px;
+    transition: all;
+    transition-duration: 0.2s; 
+}
+
+header .wrapper .container nav ul li a:hover{
+    background-color: rgba(44, 44, 44, 0.301);
+}
+
+header .wrapper .container nav ul li a.active{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+header .wrapper .container .side{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* border: 2px solid rgb(0, 234, 255); */
+    order: 2;
+    width: 50%;
+}
+
+header .wrapper .container .side a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+header .wrapper .container .side i{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px
+}
+
+/* Header-Banner: Mobile */
+
+header .banner-big{
+    display: none;
+}
+
+header .banner{
+    margin-bottom: 15px;
+}
+
+header .banner a{
+    display: block;
+    text-decoration: none;
+}
+
+/* Main-Offer-1: Mobile */
+
+main .wrapper .offer-1 h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+main .offer-1-image-big{
+    display: none;
+}
+
+main .offer-1-image a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* Main-Category: Mobile */
+
+main .wrapper .category{
+    margin-bottom: 30px;
+}
+
+main .wrapper .category h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+main .wrapper .category .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .wrapper .category .cards .card{
+    width: 49%;
+    transition: all;
+    transition-duration: 0.3s; 
+}
+
+main .wrapper .category .cards .card:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.35);
+}
+
+main .wrapper .category .cards .card-mod{
+    margin-top: 15px;
+}
+
+main .wrapper .category .cards .card a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+main .wrapper .category .cards .card a img{
+    margin-bottom: 10px;
+}
+
+main .wrapper .category .cards .card a h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Main-Offer-2: Mobile */
+
+main .offer-2-image-big{
+    display: none;
+}
+
+main .offer-2-image{
+    margin: 15px 0px;
+}
+
+main .offer-1-image a{
+    display: block;
+    text-decoration: none;
+}
+
+/* Main-Budget: Mobile */
+
+main .wrapper .budget h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+main .wrapper .budget .cards .card{
+    margin-bottom: 15px;
+}
+
+main .wrapper .budget .cards .card a{
+    display:block;
+    text-decoration: none;
+}
+
+/* Main-Arrival: Mobile */
+
+main .wrapper .arrival{
+    margin-bottom: 30px;
+}
+
+main .wrapper .arrival h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+main .wrapper .arrival .cards .card{
+    margin-bottom: 15px;
+    background-color: rgb(218, 243, 255);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+main .wrapper .arrival .cards .card:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Main-Arrival-Men: Mobile */
+
+main .wrapper .arrival .cards .card.men{
+    background-color: rgb(255, 218, 218);
+}
+
+main .wrapper .arrival .cards .card a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+main .wrapper .arrival .cards .card a .content{
+    padding: 10px 20px 20px;
+}
+
+main .wrapper .arrival .cards .card a .content h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main .wrapper .arrival .cards .card a .content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+}
+
+/* Footer: Mobile */
+
+footer{
+    border-top: 1px solid rgb(211, 211, 211);
+    padding: 15px 0px;
+}
+
+footer .wrapper .container-big{
+    display: none;
+}
+
+footer .wrapper .container{
+    text-align: center;
+}
+
+footer .wrapper .container .follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid rgb(0, 234, 255); */
+    margin-bottom: 15px;
+}
+
+footer .wrapper .container .follow a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+footer .wrapper .container .follow a i{
+    display: block;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+footer .wrapper .container .logo{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+footer .wrapper .container .logo h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+}
+
+footer .wrapper .container p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: rgb(133, 133, 133);
+}
+
+footer .back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+footer .back-to-top a{
+    display: block;
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+footer .back-to-top a i{
+    display: block;
+    font-size: 22px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Header-Products: Mobile */
+
+header .banner-pro{
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 0px;
+    margin-bottom: 15px;
+}
+
+header .banner-pro h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Products: Mobile */
+
+.products .wrapper{
+    margin-bottom: 15px;
+}
+
+.products .wrapper h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+.products .wrapper .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products .wrapper .cards .card{
+    width: 49.5%;
+    transition: all;
+    transition-duration: 0.3s;
+    margin-bottom: 15px;
+    /* border: 2px solid red; */
+}
+
+.products .wrapper .cards .card:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.35);
+}
+
+.products .wrapper .cards .card a{
+    display:block;
+    text-decoration: none;
+    color: black;
+}
+
+.products .wrapper .cards .card a .image{
+    position: relative;
+}
+
+.products .wrapper .cards .card a .image::before{
+    content: "new";
+    display: inline-block;
+    background-color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.products .wrapper .cards .card a .content{
+    padding: 10px;
+}
+
+.products .wrapper .cards .card a .content h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.products .wrapper .cards .card a .content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(133, 133, 133);
+}
+
+/* Products-View: Mobile */
+
+.pro-view .wrapper{
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+.pro-view .wrapper .container .content{
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+.pro-view .wrapper .container .content .top{
+    margin-bottom: 30px;
+}
+
+.pro-view .wrapper .container .content .top h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pro-view .wrapper .container .content .top h3,
+.pro-view .wrapper .container .content .bottom h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pro-view .wrapper .container .content .top p,
+.pro-view .wrapper .container .content .bottom p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(77, 77, 77);
+}
+
+.pro-view .wrapper .container .content .top a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: black;
+    margin-top: 20px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.pro-view .wrapper .container .content .top a:hover{
+    background-color: rgb(104, 104, 104);
+}
+
+.products .wrapper .left-align{
+    text-align: left;
+}
+
+/* Tablet Version */
+
+@media screen and (min-width: 650px){
+    /* Header-Navigation: Tablet */
+
+        header .wrapper .container{
+            display: none;
+        }
+
+        header .wrapper .container-big{
+            display: block;
+        }
+
+        header .wrapper .container-big{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 2px solid red; */
+            padding: 15px 0px 15px;
+        }
+        
+        header .wrapper .container-big .logo{
+            display: block;
+            text-decoration: none;
+            color: black;
+            /* border: 2px solid gold; */
+        }
+        
+        header .wrapper .container-big .logo h1{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 25px;
+        }
+        
+        header .wrapper .container-big nav ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        header .wrapper .container-big nav ul li a{
+            text-decoration: none;
+            display: block;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            border: 1px solid rgb(44, 44, 44);
+            padding: 10px 25px;
+            transition: all;
+            transition-duration: 0.2s;
+        }
+
+        header .wrapper .container-big nav ul li a:hover{
+            background-color: rgba(44, 44, 44, 0.301);
+        }
+        
+        header .wrapper .container-big nav ul li a.active{
+            background-color: rgb(44, 44, 44);
+            color: white;
+        }
+        
+        header .wrapper .container-big .side{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            /* border: 2px solid rgb(0, 234, 255); */
+        }
+
+        header .wrapper .container-big .side a{
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+        
+        header .wrapper .container-big .side i{
+            display: block;
+            font-size: 22px;
+            margin-left: 20px
+        }
+
+    /* Main-Offer-1: Tablet */
+
+        main .wrapper .offer-1 h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+    /* Main-Category: Tablet */
+
+        main .wrapper .category h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main .wrapper .category .cards .card{
+            width: 32%;
+            /* border: 2px solid red; */
+        }
+
+        main .wrapper .category .cards .card-3{
+            margin-top: 0px;
+        }
+
+        main .wrapper .category .cards .card a h3{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+    /* Main-Budget: Tablet */
+
+        main .wrapper .budget h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+    /* Main-Arrival: Tablet */
+
+        main .wrapper .arrival h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main .wrapper .arrival .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        main .wrapper .arrival .cards .card{
+            width: 49%;
+        }
+
+        main .wrapper .arrival .cards .card a .content h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        main .wrapper .arrival .cards .card a .content p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+    /* Footer: Tablet */
+
+        footer .wrapper .container{
+            display: none;
+        }
+
+        footer .wrapper .container-big{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        footer .wrapper .container-big .follow{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            /* border: 2px solid rgb(0, 234, 255); */
+            width: 50%;
+            order: 2;
+        }
+
+        footer .wrapper .container-big .follow a{
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+
+        footer .wrapper .container-big .follow a i{
+            display: block;
+            font-size: 20px;
+            padding: 0px 20px;
+        }
+
+        footer .wrapper .container-big .logo{
+            display: block;
+            text-decoration: none;
+            color: black;
+            /* border: 2px solid rgb(255, 238, 0); */
+            width: 50%;
+            order: 1;
+        }
+
+        footer .wrapper .container-big .logo h1{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 25px;
+        }
+
+        footer .wrapper .container-big p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.3;
+            color: rgb(133, 133, 133);
+            width: 100%;
+            order: 3;
+            margin-top: 15px;
+            /* border: 2px solid rgb(89, 0, 255); */
+            text-align: center;
+        }
+        
+        footer .back-to-top a i{
+            padding: 15px 20px;
+        }
+
+    /* Header-Products: Tablet */
+
+        header .banner-pro{
+            padding: 100px 0px;
+        }
+
+        header .banner-pro h2{
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+    /* Products: Tablet */
+
+        .products .wrapper h2{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            padding: 15px 0px;
+            /* border: 2px solid red; */
+        }
+
+        .products .wrapper .cards .card{
+            width: 32.5%;
+            transition: all;
+            transition-duration: 0.3s;
+            margin-bottom: 15px;
+            /* border: 2px solid red; */
+        }
+
+        .products .wrapper .cards .card a .image{
+            position: relative;
+        }
+
+        .products .wrapper .cards .card a .image::before{
+            content: "new";
+            display: inline-block;
+            background-color: white;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            padding: 3px 6px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .products .wrapper .cards .card a .content h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .products .wrapper .cards .card a .content p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    /* Products-View: Tablet */
+
+        .pro-view .wrapper .container .image{
+            /* border: 2px solid magenta; */
+            width: 80%;
+            margin: 0px auto;
+        }
+
+        .pro-view .wrapper .container .content{
+            padding: 10px;
+            /* border: 2px solid red; */
+        }
+
+        .pro-view .wrapper .container .content .top h2{
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .pro-view .wrapper .container .content .top h3,
+        .pro-view .wrapper .container .content .bottom h3{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .pro-view .wrapper .container .content .top p,
+        .pro-view .wrapper .container .content .bottom p{
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(77, 77, 77);
+        }
+}
+
+/* Desktop Version */
+
+@media screen and (min-width: 1200px){
+        .wrapper{
+            width: 80%;
+            margin: 0px auto;
+            /* background-color: plum; */
+        }
+
+    /* Header-Navigation: Tablet */
+
+        header .wrapper .container{
+            display: none;
+        }
+
+        header .wrapper .container-big{
+            display: block;
+        }
+
+        header .wrapper .container-big{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 2px solid red; */
+            padding: 15px 0px 15px;
+        }
+        
+        header .wrapper .container-big .logo{
+            display: block;
+            text-decoration: none;
+            color: black;
+            /* border: 2px solid gold; */
+        }
+        
+        header .wrapper .container-big .logo h1{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 28px;
+        }
+        
+        header .wrapper .container-big nav ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        header .wrapper .container-big nav ul li a{
+            text-decoration: none;
+            display: block;
+            color: black;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            border: 1px solid rgb(44, 44, 44);
+            padding: 10px 25px;
+        }
+        
+        header .wrapper .container-big nav ul li a.active{
+            background-color: rgb(44, 44, 44);
+            color: white;
+        }
+        
+        header .wrapper .container-big .side{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            /* border: 2px solid rgb(0, 234, 255); */
+        }
+        
+        header .wrapper .container-big .side i{
+            display: block;
+            font-size: 20px;
+            margin-left: 20px
+        }
+
+    /* Header-Banner: Desktop */
+
+        header .banner{
+            display: none;
+        }
+
+        header .banner-big{
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        header .banner-big a{
+            display: block;
+            text-decoration: none;
+        }
+
+    /* Main-Offer-1: Desktop */
+        
+        main .offer-1-image{
+            display: none;
+        }
+
+        main .wrapper .offer-1 h2{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            padding: 15px 0px;
+            /* border: 2px solid red; */
+        }
+
+        main .offer-1-image-big{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        main .offer-1-image-big a{
+            display: block;
+            text-decoration: none;
+            width: 33%;
+        }
+
+    /* Main-Category: Desktop */
+
+        main .wrapper .category h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main .wrapper .category .cards .card{
+            width: 15%;
+            /* border: 2px solid red; */
+        }
+
+        main .wrapper .category .cards .card-3,
+        main .wrapper .category .cards .card-4,
+        main .wrapper .category .cards .card-5,
+        main .wrapper .category .cards .card-6{
+            margin-top: 0px;
+        }
+
+        main .wrapper .category .cards .card a h3{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+    /* Main-Offer-2: Desktop */
+
+        main .offer-2-image{
+            display: none;
+        }
+
+        main .offer-2-image-big{
+            display: block;
+            margin: 15px 0px;
+        }
+
+        main .offer-1-image-big a{
+            display: block;
+            text-decoration: none;
+        }
+
+    /* Main-Budget: Desktop */
+
+        main .wrapper .budget h2{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            padding: 15px 0px;
+            /* border: 2px solid red; */
+        }
+
+        main .wrapper .budget .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        main .wrapper .budget .cards .card{
+            margin-bottom: 15px;
+            width: 49%;
+        }
+
+        main .wrapper .budget .cards .card-3{
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+    /* Main-Arrival: Desktop */
+
+        main .wrapper .arrival h2{
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        main .wrapper .arrival .cards .card{
+            width: 24%;
+        }
+
+        main .wrapper .arrival .cards .card a .content h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        main .wrapper .arrival .cards .card a .content p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    /* Footer: Desktop */
+
+        footer .wrapper .container-big .logo h1{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 28px;
+        }
+
+        footer .back-to-top a i{
+            padding: 20px 25px;
+        }
+
+    /* Header-Products: Desktop */
+
+        header .banner-pro{
+            background-position: center;
+            padding: 150px 0px;
+        }
+
+        header .banner-pro h2{
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+    /* Products: Desktop */
+
+        .products .wrapper h2{
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+            padding: 15px 0px;
+            /* border: 2px solid red; */
+        }
+
+        .products .wrapper .cards .card{
+            width: 24.5%;
+            transition: all;
+            transition-duration: 0.3s;
+            margin-bottom: 15px;
+            /* border: 2px solid red; */
+        }
+
+        .products .wrapper .cards .card a .image{
+            position: relative;
+        }
+
+        .products .wrapper .cards .card a .image::before{
+            content: "new";
+            display: inline-block;
+            background-color: white;
+            text-transform: uppercase;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            padding: 3px 6px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .products .wrapper .cards .card a .content h3{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .products .wrapper .cards .card a .content p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    /* Products-View: Desktop */
+
+        .pro-view .wrapper .container{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid magenta; */
+        }
+
+        .pro-view .wrapper .container .image{
+            /* border: 2px solid red; */
+            width: 50%;
+        }
+
+        .pro-view .wrapper .container .content{
+            padding: 30px 150px 30px 50px;
+            /* border: 2px solid red; */
+            width: 50%;
+        }
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                      url("images/moses-janga-WZaPKRy4zYQ-unsplash.jpg");
+}
+
+.wrapper .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+     
+.wrapper .container .content{
+    display: inline-block;
+    background-color: white;
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+.wrapper .container .content h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
+}
+
+.wrapper .container .content form .row{
+    margin-bottom: 30px;
+}
+
+.wrapper .container .content form .row .box{
+    display: inline-block;
+}
+
+.wrapper .container .content form .row .box label,
+.wrapper .container .content form .row .box input{
+    display: block;
+    text-align: left;
+}
+
+.wrapper .container .content form .row .box label{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.wrapper .container .content form .row .box input{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.wrapper .container .content form .row .box-1,
+.wrapper .container .content form .row .box-3,
+.wrapper .container .content form .row .box-5{
+    margin-right: 70px;
+}
+
+.wrapper .container .content form .row .box input:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.wrapper .container .content form .row .box input:focus{
+    background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.wrapper .container .content form .para{
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapper .container .content form .para a{
+    font-size: 18px;
+    color: rgb(39, 133, 240);
+    text-decoration: none;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.wrapper .container .content form .para a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.wrapper .container .content form .btn input{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0px;
+    background-color: rgb(13, 116, 233);
+    color: white;
+    transition: all;
+    transition-duration: 200ms;
+    margin: 20px 0px;
+}
+
+.wrapper .container .content form .btn input:hover{
+    background-color: rgb(32, 136, 255);
+}
